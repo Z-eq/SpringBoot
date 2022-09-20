@@ -1,12 +1,11 @@
-package com.zeq.springboot.Exercise1;
+package com.zeq.springboot.data;
 
-import org.springframework.stereotype.Component;
+import com.zeq.springboot.entity.AppUser;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 

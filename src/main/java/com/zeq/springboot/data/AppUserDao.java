@@ -1,4 +1,6 @@
-package com.zeq.springboot.Exercise1;
+package com.zeq.springboot.data;
+
+import com.zeq.springboot.entity.AppUser;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package com.zeq.springboot.Exercise1;
+package com.zeq.springboot.entity;
 
 import javax.persistence.*;
 import java.time.LocalDate;

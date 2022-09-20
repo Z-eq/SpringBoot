@@ -1,6 +1,6 @@
 package com.zeq.springboot.Exercise1;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import com.zeq.springboot.entity.AppUser;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;

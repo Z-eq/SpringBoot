@@ -1,5 +1,7 @@
 package com.zeq.springboot.Exercise1;
 
+import com.zeq.springboot.data.AppUserDao;
+import com.zeq.springboot.entity.AppUser;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
@@ -9,7 +11,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.Entity;
 import java.time.LocalDate;
 import java.util.Optional;
 
